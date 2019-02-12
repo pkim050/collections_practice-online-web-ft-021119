@@ -10,8 +10,8 @@ def sort_array_char_count(array)
   array.sory_by! {|x| x.length}
 end
 
-def swap_elements(array)
-  array[1], array[2] = array[2], array[1]
+def swap_elements(array, index, destination_index)
+  array[index], array[destination_index] = array[destination_index], array[index]
 end
 
 def reverse_array(array)
