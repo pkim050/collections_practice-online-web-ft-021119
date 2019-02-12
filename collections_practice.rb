@@ -39,7 +39,7 @@ def add_s(array)
     if i == 1
       
     else
-      i << "s"
+      e << "s"
     end
   end
   array
