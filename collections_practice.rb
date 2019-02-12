@@ -7,7 +7,7 @@ def sort_array_desc(array)
 end
 
 def sort_array_char_count(array)
-  array.sory_by! {|x| x.length}
+  array.sort_by! {|x| x.length}
 end
 
 def swap_elements(array, index, destination_index)
